@@ -9,14 +9,12 @@ body, html {
   padding: 16px;
   box-sizing: border-box;
   display: grid;
-  grid-template: repeat(6, calc((100% - 75px)/6)) / repeat(3, calc((100% - 30px)/3));
+  grid-template: calc(15% - 15px) calc(15% - 15px) 55% calc(15% - 15px) / calc(25% - 15px) 75%;
   grid-template-areas: 
-    'header header header'
-    'sidebar nav nav'
-    'sidebar article article'
-    'sidebar article article'
-    'sidebar article article'
-    'footer footer footer';
+    'header header '
+    'sidebar nav '
+    'sidebar article '
+    'footer footer ';
   gap: 15px;
 }
 
