@@ -1,9 +1,13 @@
 # Methods for Adding CSS
+<<<<<<< HEAD
 In this exercise, you're going to practice adding CSS to an HTML file using all 
 three methods: external CSS, internal CSS, and inline CSS. You should only be 
 using type selectors for this exercise when adding styles via the external and 
 internal methods. You should also use keywords for colors (e.g. "blue" instead 
 of using RGB or HEX values).
+=======
+In this exercise, you're going to practice adding CSS to an HTML file using all three methods: external CSS, internal CSS, and inline CSS. You should only be using type selectors for this exercise when adding styles via the external and internal methods. You should also use keywords for colors (e.g. "blue") instead of using RGB or HEX values.
+>>>>>>> upstream/main
 
 There are three elements for you to add styles to, each of which uses a 
 different method of adding CSS to it, as noted in the outcome image below. 
@@ -20,7 +24,7 @@ The properties you need to add to each element are:
 * `button`: an orange background and a font size of 18px
 
 ## Desired Outcome
-![outcome](https://user-images.githubusercontent.com/70952936/131268832-f3a3bbde-c9e6-4e73-9b99-79ffa3d2144a.png)
+![desired outcome](./desired-outcome.png)
 
 
 ### Self Check

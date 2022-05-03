@@ -8,8 +8,9 @@ padding to make it look exactly right.
 ![desired outcome](./desired-outcome.png)
 
 ### Self Check
-Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel-perfection, but to use the tools you've learned to get relatively close to the desired output.
+Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
 
+<<<<<<< HEAD:margin-and-padding/margin-and-padding-2/README.md
 - There is 8px between the edge of the card and it's content (the blue sections)
   I made it 10px
   
@@ -19,10 +20,16 @@ Use this section to check your work. On _these_ projects, your goal isn't to att
 - Title of the card uses a 16px font.
   yes
   
+=======
+- There is 8px between the edge of the card and its content (the blue sections).
+- There is an 8px gap between each of the blue sections inside the card.
+- The title of the card uses a 16px font.
+>>>>>>> upstream/main:margin-and-padding/02-margin-and-padding-2/README.md
 - There are 8px between the title text and the edge of the title section.
   I made the padding 10px
   
 - The content section has 16px space on the top and bottom, and 8px on either side.
+<<<<<<< HEAD:margin-and-padding/margin-and-padding-2/README.md
   Oops, the padding looked like it had equal spacing to me. I also like it that 
   way to I'm keeping it.
 - Everything inside the `.button` section is centered, and there is 8px padding.
@@ -35,3 +42,8 @@ Use this section to check your work. On _these_ projects, your goal isn't to att
   
 - the Big Button has 24px space on the sides, and 8px on top and bottom.
   I did 20px on the sides, and 5px top and bottom.
+=======
+- Everything inside the `.button-container` section is centered, and there is 8px padding.
+- The Big Button is centered on its own line.
+- The Big Button has 24px space on the sides, and 8px on top and bottom.
+>>>>>>> upstream/main:margin-and-padding/02-margin-and-padding-2/README.md
