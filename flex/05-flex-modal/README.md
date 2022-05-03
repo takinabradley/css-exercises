@@ -1,16 +1,13 @@
 # A common 'modal' style
-This one is another very common pattern on the web. The solution to this one is 
-_simple_... but it might not be immediately obvious to you. You'll need to edit 
+
+This one is another very common pattern on the web. The solution to this one is
+_simple_... but it might not be immediately obvious to you. You'll need to edit
 the HTML a bit to get everything where it needs to be.
 
-<<<<<<< HEAD
 ### a hint
-Depending on how to approach this one, you might need to revisit the 
+
+Depending on how to approach this one, you might need to revisit the
 `flex-shrink` property to keep a flex item from getting smashed.
-=======
-### A hint
-Depending on how you approach this one, you might need to revisit the `flex-shrink` property to keep a flex item from getting smashed.
->>>>>>> upstream/main
 
 ## Desired outcome
 
@@ -19,28 +16,16 @@ Depending on how you approach this one, you might need to revisit the `flex-shri
 ### Self Check
 
 - The blue icon is aligned to the left.
-<<<<<<< HEAD
   yes
-  
-- There is equal space on either side of the icon (the gap between the icon and 
+- There is equal space on either side of the icon (the gap between the icon and
   the edge of the card, and the icon and the text is the same).
   yes
-  
-=======
-- There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
->>>>>>> upstream/main
 - There is padding around the edge of the modal.
   yes
-  
 - The header, text, and buttons are aligned with each other.
-  visually, yes 
+  visually, yes
 - The header is bold and a slightly larger text-size than the text.
-<<<<<<< HEAD
-  yes 
-  
-- The close button is vertically aligned with the header, and aligned in the 
+  yes
+- The close button is vertically aligned with the header, and aligned in the
   top-right of the card.
   visually yes.
-=======
-- The close button is vertically aligned with the header, and aligned in the top-right of the card.
->>>>>>> upstream/main
