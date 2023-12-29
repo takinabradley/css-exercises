@@ -19,6 +19,7 @@
   background-color: rgb(99, 97, 97);
 
   display: none;
+  transition: transform 750ms linear;
 }
 
 ul.dropdown-menu li:hover {
@@ -27,6 +28,23 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  animation-duration: 750ms;
+  animation-name: menu-bounce;
+  animation-iteration-count: 1;
+  transform-origin: top;
+  animation-fill-mode: forwards;
+}
+
+@keyframes menu-bounce {
+  0% {
+    transform: scaleY(0%);
+  }
+  90% {
+    transform: scaleY(110%);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
 }
 
 
