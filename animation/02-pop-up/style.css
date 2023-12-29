@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+:root {
+  
+}
+
 body {
   overflow: hidden;
 }
@@ -27,18 +31,20 @@ button {
 }
 
 .popup-modal {
+  --animation-speed: 200ms;
   padding: 32px 64px;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform-origin: center;
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: top var(--animation-speed) ease-out, opacity var(--animation-speed) ease-in-out;
 }
 
 .popup-modal p {
@@ -56,6 +62,7 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  top: 50%;
 }
 
 .backdrop.show {
