@@ -13,6 +13,9 @@ for you, but for this exercise you will have to create the file and link it in
 the HTML file yourself. This is all about practicing using these different
 methods and getting the syntax right.
 
+> ## quick tip:
+> Do not worry about details in these exercises that are not specifically mentioned in the exercise or self check section. Because the desired outcomes are screenshots, your browser may show a different font, the colors may appear different on your machine, or the spacing between elements may look different. Only concern yourself with the specific items you are supposed to be learning for each exercise.
+
 The properties you need to add to each element are:
 
 - `div`: a red background, white text, a font size of 32px, center aligned, and

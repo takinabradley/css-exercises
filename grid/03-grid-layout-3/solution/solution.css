@@ -19,14 +19,6 @@
   background-color: #393f4d;
 }
 
-.logo {
-}
-
-.menu {
-}
-
-.menu ul {
-}
 
 .menu ul,
 .menu li {
@@ -34,7 +26,7 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #C50208;
 }
 
 .sidebar .photo {
@@ -45,8 +37,6 @@
   border-radius: 10px;
 }
 
-.photo  {
-}
 
 .sidebar .side-content {
   background-color: white;
@@ -56,11 +46,9 @@
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #C50208;
 }
 
-.nav ul {
-}
 
 .nav ul li {
   font-size: 16px;
@@ -101,7 +89,7 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 /* SOLUTION */
@@ -110,7 +98,6 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
-  text-align: center;
 }
 
 .header {
@@ -143,8 +130,9 @@
   gap: 50px;
 }
 
-.side-content, .photo {
-  display: grid; 
+.side-content,
+.photo {
+  display: grid;
   align-items: center;
 }
 
@@ -157,7 +145,6 @@
 .article {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(2, 1fr);
   gap: 15px;
 }
 

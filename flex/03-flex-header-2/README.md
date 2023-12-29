@@ -9,8 +9,7 @@ flexbox you need to add containers around things to make them go where you need
 them to go. In this case, you probably want to separate the items that go on the
 left and right of the header.
 
-This is also the first example where you'll be nesting flex containers inside
-each other.
+Just like you did in the `02-flex-header` exercise, you'll be nesting flex containers inside each other.
 
 ## Desired outcome
 
@@ -31,5 +30,5 @@ items pushed to the left and right.
   yes
 - There is 16px between each item on both sides of the header.
   10px on one side, something separates the other.
-- Used flex to arrange everything.
+- flex is used to arrange everything.
   yes.
